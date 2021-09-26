@@ -14,10 +14,7 @@ pipeline {
             sh 'mvn -Dmaven.test.failure.ignore=true clean package'
            }
        }
-       stage('run the app'){
-           steps{
-               
-           }
-       }
+      }
 }
+
 }
